@@ -37,4 +37,12 @@ let lastName = "Omokpia";
 let age = 25;
 let occupation = "Mobile Developer";
 
-console.log(firstName);
+console.log(lastName);
+
+
+// DATA TYPES//
+// primitive data types
+// reference data types
+
+//PRIMITIVE DATA TYPES
+// string, number, boolean, null, undefined, symbol
