@@ -4,7 +4,7 @@
 
 // let gender = "Male";
 
-// let hobbies = ["coding", "reading", "gaming"];
+let hobbies = ["coding", "reading", "gaming"];
 
 // let skills = {
 //     programmingLanguages: ["JavaScript", "Python", "Java"],
@@ -18,4 +18,3 @@
 // }
 
 // let maritalStatus = "Single";
-
