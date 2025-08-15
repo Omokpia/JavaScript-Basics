@@ -1,4 +1,4 @@
-let introduction = "My name is Godspower. I am a software developer"
+let introduction = "My name is Godspower. I am a Mobile developer"
 
 let age = 25;
 
@@ -16,4 +16,3 @@ let education = {
     institution: "University of Technology",
     graduationYear: 2020
 }
-
