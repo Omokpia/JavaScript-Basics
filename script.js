@@ -18,3 +18,23 @@
 // }
 
 // let maritalStatus = "Single";
+
+
+
+
+// JAVASCRIPT//
+
+// VARIABLES//
+
+// how to create a variable
+// var , let , const
+
+const GENDER = "MALE";
+const PI = 3.14;
+
+let firstName = "Godspower";
+let lastName = "Omokpia";
+let age = 25;
+let occupation = "Mobile Developer";
+
+console.log(firstName);
