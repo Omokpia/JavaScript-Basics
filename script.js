@@ -16,3 +16,5 @@ let education = {
     institution: "University of Technology",
     graduationYear: 2020
 }
+
+let maritalStatus = "Single";
