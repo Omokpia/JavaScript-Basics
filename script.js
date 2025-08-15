@@ -11,3 +11,9 @@ let skills = {
     frameworks: ["React", "Node.js", "Django"]
 }
 
+let education = {
+    degree: "Bachelor of Science in Computer Science",
+    institution: "University of Technology",
+    graduationYear: 2020
+}
+
