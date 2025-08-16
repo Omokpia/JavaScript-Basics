@@ -46,3 +46,6 @@ console.log(lastName);
 
 //PRIMITIVE DATA TYPES
 // string, number, boolean, null, undefined, symbol
+
+
+hghg
