@@ -48,4 +48,3 @@ console.log(lastName);
 // string, number, boolean, null, undefined, symbol
 
 
-hghg
