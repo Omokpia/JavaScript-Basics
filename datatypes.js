@@ -34,3 +34,21 @@ let height = 5.9;
 let temperature = -10;
 let cgpa = 4.59
 let price = 1500;
+
+// 3) BOOLEAN:
+
+// Boolean represents a logical entity and can have two values: true or false.
+
+// Example:
+
+let isMarried = false
+let isEmployed = true
+let isStudent = false
+let isAvailable = true
+
+// OPETATIONS ON STRINGS
+
+// Concatenation: Joining two or more strings together
+let fullName = firstName + " " + lastName; 
+
+console.log(fullName)
