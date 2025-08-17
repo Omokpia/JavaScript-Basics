@@ -52,3 +52,12 @@ let isAvailable = true
 let fullName = firstName + " " + lastName; 
 
 console.log(fullName)
+
+// operations on numbers
+// Add (+), Subtract (-), Multiply (*), Divide (/), Get Remainder (%)
+
+console.log(5 + 3)
+console.log(10 - 4)
+console.log(6 * 7)
+console.log(20 / 4)
+console.log(10 % 3)
