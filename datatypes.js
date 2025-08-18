@@ -19,45 +19,71 @@
 
 // Example:
 
-let firstName = "Godspower";
-let lastName = "Omokpia";
-let favColor = 'white'
-let bills = '1000000'
+// let firstName = "Godspower";
+// let lastName = "Omokpia";
+// let favColor = 'white'
+// let bills = '1000000'
 
-// 2) NUMBER:
+// // 2) NUMBER:
 
-// Numbers can be integers either positive or negative or floating point numbers.
+// // Numbers can be integers either positive or negative or floating point numbers.
 
-// Example:
-let age = 25;
-let height = 5.9;
-let temperature = -10;
-let cgpa = 4.59
-let price = 1500;
+// // Example:
+// let age = 25;
+// let height = 5.9;
+// let temperature = -10;
+// let cgpa = 4.59
+// let price = 1500;
 
-// 3) BOOLEAN:
+// // 3) BOOLEAN:
 
-// Boolean represents a logical entity and can have two values: true or false.
+// // Boolean represents a logical entity and can have two values: true or false.
 
-// Example:
+// // Example:
 
-let isMarried = false
-let isEmployed = true
-let isStudent = false
-let isAvailable = true
+// let isMarried = false
+// let isEmployed = true
+// let isStudent = false
+// let isAvailable = true
 
-// OPETATIONS ON STRINGS
+// // OPETATIONS ON STRINGS
 
-// Concatenation: Joining two or more strings together
-let fullName = firstName + " " + lastName; 
+// // Concatenation: Joining two or more strings together
+// let fullName = firstName + " " + lastName; 
 
-console.log(fullName)
+// console.log(fullName)
 
-// operations on numbers
-// Add (+), Subtract (-), Multiply (*), Divide (/), Get Remainder (%)
+// // operations on numbers
+// // Add (+), Subtract (-), Multiply (*), Divide (/), Get Remainder (%)
 
-console.log(5 + 3)
-console.log(10 - 4)
-console.log(6 * 7)
-console.log(20 / 4)
-console.log(10 % 3)
+// console.log(5 + 3)
+// console.log(10 - 4)
+// console.log(6 * 7)
+// console.log(20 / 4)
+// console.log(10 % 3)
+
+// // math. methods library
+
+// console.log(Math.sqrt(16))
+// console.log(Math.pow(2, 3))// 2 raised to the power of 3
+
+
+// operations on booleans
+
+
+// let age1 = 25;
+// let legalAge1 = 18;
+
+// console.log(age1 > legalAge1);
+
+// let age2 = 16;
+// let legalAge2 = 18;
+// console.log(age2 > legalAge2);
+
+// Logical AND (&&), Logical OR (||), Logical NOT (!)
+
+let johnAge = 40
+let janeAge = 40
+// console.log(johnAge == janeAge);
+console.log(johnAge != janeAge);
+
