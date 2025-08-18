@@ -83,7 +83,86 @@
 // Logical AND (&&), Logical OR (||), Logical NOT (!)
 
 let johnAge = 40
-let janeAge = 40
-// console.log(johnAge == janeAge);
-console.log(johnAge != janeAge);
+let janeAge = '40'
+console.log(johnAge == janeAge);
+console.log(johnAge === janeAge);  // The '===' operator checks for both value and type equality, so this will return false because johnAge is a number and janeAge is a string.    
+
+
+// comparison operators
+//Greater Than (>), Less Than (<), Greater Than or Equal (>=), Less Than or Equal (<=)
+
+const LEGALAGE = 18;
+
+janeAge = 19 // Reassigning janeAge to a number for comparison
+
+console.log('Can Jane vote?:', janeAge >= LEGALAGE);
+
+// Logical operators
+// Logical operators are used to combine or modify boolean values.
+//example of logical operators include:
+
+// AND (&&), OR (||), NOT (!)
+
+// AND (&&) returns true if both operands (values or variables) are true
+// Example:
+
+// console.log('--------AND OPERATOR:-------');
+
+let x = true;
+let y = true;
+let a = false;
+let b = false;
+
+// console.log(true && true);  
+// console.log(true && false); 
+// console.log(false && true); 
+// console.log(false && false);
+
+// console.log('z = ', x && y); 
+// console.log('z = ', x && a);
+// console.log('z = ', a && b);
+
+// console.log(janeAge >= LEGALAGE && johnAge >= LEGALAGE)
+
+
+
+
+
+// OR (||) returns true if at least one operand is true
+
+// Example:
+console.log('--------OR OPERATOR:-------');
+
+
+console.log(true || true);  
+console.log(true || false); 
+console.log(false || true); 
+console.log(false || false);
+
+
+// NOT (!) negates the value of the operand, turning true to false and vice versa
+
+// Example:
+
+console.log('--------NOT OPERATOR:-------');
+
+
+console.log(true);  
+console.log(false); 
+console.log(!true); 
+console.log(!false);
+
+// console.log(5 > 2)
+// console.log(! 5 > 2);
+
+// console.log(!! 5 > 2); // Double negation returns the original boolean value
+// console.log(! (! 5 > 2)) // This will return false because the inner negation turns true to false, and the outer negation turns it back to true.
+
+
+// REFERENCE DATA TYPE
+// Reference data types are more complex and can hold collections of values or more complex entities.
+
+// Random Access Memory (RAM) is used to store reference data types and it is made up of little memory gaps called addresses.
+
+
 
