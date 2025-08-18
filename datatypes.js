@@ -160,9 +160,60 @@ console.log(!false);
 
 
 // REFERENCE DATA TYPE
+
 // Reference data types are more complex and can hold collections of values or more complex entities.
 
 // Random Access Memory (RAM) is used to store reference data types and it is made up of little memory gaps called addresses.
 
+// The main reference data types in JavaScript are:
+// 1) Array  2) Object
 
+// 1) Array: An array is a collection of items stored in a single variable. It can hold multiple values of different data types.
+
+// Example:
+
+let agesArray = [25, 30, 35, 40];
+let namesArray = ['Alice', 'Bob', 'Charlie', 'mango', 'banana', 'God', 25, 54, true, false];
+
+// Arrays can hold mixed data types
+// Arrays are zero-indexed, meaning the first element is at index 0
+// Arrays can be accessed using their index
+// Arrays can be modified by adding, removing, or changing elements
+// Arrays can be iterated over using loops or array methods
+// Arrays are usually inside square brackets []
+
+// 2) Object: An object is a collection of key-value pairs, where each key is a string (or Symbol) and the value can be any data type, including other objects or arrays.
+// Objects are used to represent real-world entities and their properties.
+// Objects can be created using object literals or constructors.
+// Objects can be accessed using dot notation or bracket notation.
+// Objects can be modified by adding, removing, or changing properties
+// Objects are usually inside curly braces {}
+// Objects are used to store related data and functionality together
+
+// Example:
+
+let person = {
+    firstName: 'John',
+    lastName: 'Doe',
+    sex: "Male",
+    age: 30,
+    isEmployed: true,
+    hobbies: ['reading', 'traveling', 'coding'],
+    address: {
+        street: '123 Main St',
+        city: 'Anytown',
+        country: 'Nigeria'
+    }
+};
+
+// NOTE: Almost everything in JavaScript is an object, including arrays and functions.
+
+// console.log('ages Array:', agesArray);
+// console.log('names Array:', namesArray);
+
+// Operations on Arrays
+
+let fruitsArray = ['apple', 'banana', 'orange', 'mango', 'grape', 'kiwi'];
+console.log('items in fruits in Array: ', fruitsArray.length);
+ // Adds 'pineapple' to the end of the array and returns the new length
 
