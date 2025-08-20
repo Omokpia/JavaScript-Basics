@@ -217,3 +217,54 @@
 // console.log('items in fruits in Array: ', fruitsArray.length);
 //  // Adds 'pineapple' to the end of the array and returns the new length
 
+
+// let fruitArray = ['apple', 'banana', 'orange', 'mango', 'grape']
+
+// console.log("Items in this array ", fruitArray)
+// fruitArray.push("strawberry")
+// fruitArray.unshift("kiwi")
+// console.log(fruitArray)
+
+// ARRAY METHODS//
+// Array methods are functions that can be called on arrays to perform various operations such as adding, removing, or transforming elements. Here are some common array methods:
+
+// console.log(fruitArray[0])
+// // console.log(fruitArray.length)
+// console.log(fruitArray[fruitArray.length -1]) // Accessing the last element of the array
+
+// console.log(fruitArray.toString()); // Converts the array to a string
+// console.log(fruitArray.join(' * ')); // Joins the array elements into a string
+
+// fruitArray.map((fruit, index) => {
+//     console.log(index , ':' , fruit)
+// })
+// The `map` method creates a new array by applying a function to each element of the original array
+
+// fruitArray.map((fruit, index) => {
+//     console.log(index + 1, ":", fruit)
+// })
+
+
+//OBJECT METHODS//
+
+// Object methods are functions that can be called on objects to perform various operations such as accessing, modifying, or deleting properties. Here are some common object methods:
+// Object is a data structure like an array, it holds related values together. In js, object starts with curly braces `{}` and contains key-value pairs.
+
+// example of an object:
+
+let omokpiaObject = {
+    firstName: 'Godspower',
+    surname: 'Omokpia',
+    occupation: 'Mobile Developer',
+    sex: 'Male',
+    club: 'Liverpool FC',
+    age: 25,
+    isEmployed: true,
+    isMarried: false,
+    hobbies: ['coding', 'reading', 'gaming']
+}
+
+console.log('*******OBJECT METHODS*******')
+console.log(omokpiaObject.firstName, omokpiaObject.surname, omokpiaObject['occupation'])
+
+
