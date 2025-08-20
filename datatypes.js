@@ -252,6 +252,24 @@
 
 // example of an object:
 
+console.log('*******OBJECT METHODS*******')
+
+// let Array = {
+//     length : 20,
+//     pop : function() {
+
+//     }
+// }
+// Everything inside of an object is called a property, and the function inside an object is called a method.
+// length in an array is also a property, and pop is a method.
+
+// Difference between property and method://
+
+// A property can be a number, string, boolean, or any other data type that is associated with an object.
+// A method is a function that is associated with an object. while a property is a value that is associated with an object.
+// A property is a value associated with an object, while a method is a function that operates on the object's properties or performs actions related to the object.
+
+
 let omokpiaObject = {
     firstName: 'Godspower',
     surname: 'Omokpia',
@@ -261,14 +279,35 @@ let omokpiaObject = {
     age: 25,
     isEmployed: true,
     isMarried: false,
-    hobbies: ['coding', 'reading', 'gaming']
-}
+    hobbies: ['coding', 'reading', 'gaming'],
+    introduction: function() {
 
-console.log('*******OBJECT METHODS*******')
+        console.log('My name is ', omokpiaObject.firstName, 'I am ', omokpiaObject.age, 'and I am a ', omokpiaObject.occupation)
+    
+    }
+
+}
 console.log(omokpiaObject.firstName, omokpiaObject.surname, omokpiaObject['occupation'])
 
+// delete omokpiaObject.age; // Deleting a property
 omokpiaObject.favColor = 'blue'; // Adding a new property
 omokpiaObject['nickName'] = 'zeus'; // Adding another new property
 console.log(omokpiaObject); 
+
+omokpiaObject.introduction(); // Calling the method to introduce the object
+// what are methods?
+// A method is a function that is inside of an object. It can be used to perform actions on the object's properties or to retrieve information from the object.
+// Methods are functions that are associated with an object. They can be used to perform actions on the object's properties or to retrieve information from the object.
+
+
+console.log('godspower'.toUpperCase(), 'omokpia'.length)
+
+const string =  {
+    length: 10,
+    toUpperCase: function() {
+    },
+}
+
+
 
 
