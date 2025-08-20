@@ -267,4 +267,8 @@ let omokpiaObject = {
 console.log('*******OBJECT METHODS*******')
 console.log(omokpiaObject.firstName, omokpiaObject.surname, omokpiaObject['occupation'])
 
+omokpiaObject.favColor = 'blue'; // Adding a new property
+omokpiaObject['nickName'] = 'zeus'; // Adding another new property
+console.log(omokpiaObject); 
+
 
