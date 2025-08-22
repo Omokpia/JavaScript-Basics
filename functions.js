@@ -124,14 +124,24 @@ function calculateBMIAndCategory(personObject) {
 // introduction(peterObj)
 // introduction(joyObj)
 
-calculateBMIAndCategory(omoObj)
-calculateBMIAndCategory(powerObj)
-calculateBMIAndCategory(peterObj)
-calculateBMIAndCategory(joyObj)
+// calculateBMIAndCategory(omoObj)
+// calculateBMIAndCategory(powerObj)
+// calculateBMIAndCategory(peterObj)
+// calculateBMIAndCategory(joyObj)
 
+// RETURN A FUNCTION //
 
+function convertCelsiusToKelvin(temp) {
+    let newTemp = temp + 273.15
+    return newTemp
 
+    console.log(newTemp, 'This will never be executed')
+}
 
+let newValue = convertCelsiusToKelvin(30)
+console.log('The new temperature in Kelvin is:', newValue);
+
+console.log('The new temperature in Kelvin is:', convertCelsiusToKelvin(60));
 
 
 
