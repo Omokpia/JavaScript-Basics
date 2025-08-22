@@ -47,6 +47,8 @@ const omoObj = {
     sex: 'Male',
     nationality: 'Nigerian',
     futureCareer: 'Mobile Developer',
+    weight: 80,
+    height: 1.76784
 }
 
 
@@ -56,6 +58,8 @@ const powerObj = {
     sex: 'Male',
     nationality: 'Nigerian',
     futureCareer: 'Software Developer',
+    weight: 90,
+    height: 1.8288
 }
 
 
@@ -65,6 +69,8 @@ const peterObj = {
     sex: 'Male',
     nationality: 'Ghanaian',
     futureCareer: 'Tech Bro',
+    weight: 50,
+    height: 1.64592
 }
 
 
@@ -74,6 +80,8 @@ const joyObj = {
     sex: 'Female',
     nationality: 'Canadian',
     futureCareer: 'Footballer',
+    weight: 120,
+    height: 1.79832
 }
 
 function introduction(personObject) {
@@ -83,10 +91,63 @@ function introduction(personObject) {
     console.log('I was born in the year', 2025 - personObject.age, '.')
 }
 
-introduction(omoObj)
-introduction(powerObj)
-introduction(peterObj)
-introduction(joyObj)
+
+function calculateBMIAndCategory(personObject) {
+    let BMI = personObject.weight / (personObject.height * personObject.height)
+
+    if(BMI > 30){
+        console.log(personObject.name, 'has a BMI value of:', BMI, 'and is obese.')
+    }
+    else if(BMI >= 25 &&  30){
+        console.log(personObject.name, 'has a BMI value of:', BMI,'and is overweight.')
+    }
+    else if(BMI >= 18.5 && BMI < 25){
+        console.log(personObject.name,'has a BMI value of:', BMI, 'and has a normal weight.')
+    }
+    else{
+        console.log(personObject.name, 'has a BMI value of:', BMI,'and is underweight.')
+    }
+
+}
+
+
+
+// To calculate BMI, divide your weight in kilograms by your height in meters squared 
+// (BMI = weight in kg / (height in m)²).
+
+// BMI Categories (Adults): Underweight: Below 18.5, Normal: 18.5 to 24.9, Overweight: 25.0 to 29.9
+// Obese: 30.0 and above
+
+
+// introduction(omoObj)
+// introduction(powerObj)
+// introduction(peterObj)
+// introduction(joyObj)
+
+calculateBMIAndCategory(omoObj)
+calculateBMIAndCategory(powerObj)
+calculateBMIAndCategory(peterObj)
+calculateBMIAndCategory(joyObj)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
