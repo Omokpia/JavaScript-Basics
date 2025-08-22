@@ -5,39 +5,39 @@
 
 // Example of a function:
 
-// let number1 = 8
-// let number2 = 10
+let number1 = 8
+let number2 = 10
 
-// let number3 = 30
-// let number4 = 25
+let number3 = 30
+let number4 = 25
 
-// console.log('The sum of', number1, 'and', number2, 'is', number1 + number2);
-// console.log('The sum of', number3, 'and', number4, 'is', number3 + number4);
+console.log('The sum of', number1, 'and', number2, 'is', number1 + number2);
+console.log('The sum of', number3, 'and', number4, 'is', number3 + number4);
 
-// function SumOfTwoNumbers() {
-//     console.log(number1 + number2);
-// }
+function SumOfTwoNumbers() {
+    console.log(number1 + number2);
+}
 
-// SumOfTwoNumbers()
+SumOfTwoNumbers()
 
 // parameters are placeholder that you use within your function.
 
-// function addition(num1, num2) {
-//     console.log('this is from the addition function: ', num1 + num2);
+function addition(num1, num2) {
+    console.log('this is from the addition function: ', num1 + num2);
 
-// }
+}
 
-// addition(9, 10)
-// addition(90, 110)
-// addition(9, 55)
-// addition(93, 1)
+addition(9, 10)
+addition(90, 110)
+addition(9, 55)
+addition(93, 1)
 
-// function substraction(num1, num2) {
-//     console.log('this is from the substraction function: ', num1 - num2);
+function substraction(num1, num2) {
+    console.log('this is from the substraction function: ', num1 - num2);
 
-// }
+}
 
-// substraction(90, 10)
+substraction(90, 10)
 
 
 
@@ -91,6 +91,11 @@ function introduction(personObject) {
     console.log('I was born in the year', 2025 - personObject.age, '.')
 }
 
+introduction(omoObj)
+introduction(powerObj)
+introduction(peterObj)
+introduction(joyObj)
+
 
 function calculateBMIAndCategory(personObject) {
     let BMI = personObject.weight / (personObject.height * personObject.height)
@@ -119,15 +124,11 @@ function calculateBMIAndCategory(personObject) {
 // Obese: 30.0 and above
 
 
-// introduction(omoObj)
-// introduction(powerObj)
-// introduction(peterObj)
-// introduction(joyObj)
 
-// calculateBMIAndCategory(omoObj)
-// calculateBMIAndCategory(powerObj)
-// calculateBMIAndCategory(peterObj)
-// calculateBMIAndCategory(joyObj)
+calculateBMIAndCategory(omoObj)
+calculateBMIAndCategory(powerObj)
+calculateBMIAndCategory(peterObj)
+calculateBMIAndCategory(joyObj)
 
 // RETURN A FUNCTION //
 
