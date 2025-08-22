@@ -98,7 +98,7 @@ function calculateBMIAndCategory(personObject) {
     if(BMI > 30){
         console.log(personObject.name, 'has a BMI value of:', BMI, 'and is obese.')
     }
-    else if(BMI >= 25 &&  30){
+    else if(BMI >= 25 && BMI <= 30){
         console.log(personObject.name, 'has a BMI value of:', BMI,'and is overweight.')
     }
     else if(BMI >= 18.5 && BMI < 25){
